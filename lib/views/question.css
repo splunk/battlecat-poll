@@ -1,0 +1,129 @@
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header h4 {
+    text-align: center;
+}
+
+.answers {
+    color: #eee;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.A {
+    background-color: #FF5511;
+}
+
+.B {
+    background-color: #FF9911;
+}
+
+.C {
+    background-color: #1C89DD;
+}
+
+.D {
+    background-color: #0FE187;
+}
+
+.answer {
+    flex: 1;
+    text-align: center;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.answerSelected {
+    opacity: .2;
+}
+
+.label {
+    text-align: center;
+    flex: 1;
+}
+
+.controls {
+    height: 8em;
+    /*flex: .2;*/
+    display: flex;
+    flex-direction: row;
+    /*align-items: stretch;*/
+}
+
+.control {
+    flex: 1;
+    font-size: 4em;
+    background: #555;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+}
+
+.icon {        
+    font-family: "Splunk Icons";
+    width: 100%;
+}
+
+.prev i {
+    content: "\2039";
+}
+
+.next i {
+    content: "\203A";
+}
+
+.controlDisabled {
+    cursor: not-allowed;
+    background: #333;
+    color: #444;
+}
+
+.num {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*align-items: stretch;*/
+}
+
+.qNumber {
+    font-size: 3.5em;
+}
+
+.qLabel {
+    font-size: .8em;
+}
+
+
+@media all and (orientation: landscape) {
+    .answers {
+        flex-direction: row;
+    }
+    .controls {
+        height: 6em;
+    }
+}
+
+@media all and (orientation: portrait) {
+    .answers {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .answer {
+        flex: none;
+        width: 50%;
+    }
+}

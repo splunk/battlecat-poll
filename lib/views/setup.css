@@ -1,0 +1,38 @@
+.root {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.root h2 {
+    text-align: center;
+}
+
+.inputs {
+    background: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 -20px;
+}
+
+.input {   
+    padding: 20px 20px;
+}
+
+.label {
+    color: #888;
+    font-size: .7em;
+}
+
+.nameInput {
+}
+
+.pollInput {
+}
+
+.nextButton {
+    text-align: center;
+}

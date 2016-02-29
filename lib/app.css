@@ -1,0 +1,35 @@
+:global html, :global body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+:global @font-face {
+  font-family: 'Splunk Icons';
+  src: url('fonts/splunkicons-regular-webfont.eot');
+  src: url('fonts/splunkicons-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/splunkicons-regular-webfont.woff') format('woff'),
+  url('fonts/splunkicons-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+.app {
+    background: #202020;
+    color: #808080;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background: #202020;
+    padding: 8px 8px;
+}

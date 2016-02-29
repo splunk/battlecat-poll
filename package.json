@@ -1,0 +1,53 @@
+{
+  "name": "parallel-piper",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splunk/parallel-piper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/splunk/parallel-piper/issues"
+  },
+  "homepage": "https://github.com/splunk/parallel-piper#readme",
+  "dependencies": {
+    "babel-core": "^5.6.17",
+    "babel-loader": "^5.3.1",
+    "babel-runtime": "^5.6.18",
+    "belle": "^2.0.4",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "fastclick": "^1.0.6",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^1.6.0",
+    "jquery": "^2.1.4",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "node-libs-browser": "^0.5.2",
+    "normalize.css": "^3.0.3",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "virtual-dom": "^2.0.1",
+    "webpack": "^1.10.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.2",
+    "karma-sinon": "^1.0.4",
+    "karma-sinon-chai": "^1.2.0",
+    "karma-spec-reporter": "0.0.24",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "postcss-loader": "^0.8.1",
+    "postcss-modules": "^0.3.0",
+    "postcss-simple-vars": "^1.2.0",
+    "precss": "^1.4.0",
+    "sinon": "^1.17.3",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack-livereload-plugin": "^0.5.3"
+  }
+}

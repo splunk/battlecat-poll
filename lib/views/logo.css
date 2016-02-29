@@ -1,0 +1,10 @@
+.logo {
+    font-family: "Splunk Icons";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    text-align: right;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ddd;
+}
