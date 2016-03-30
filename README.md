@@ -1,6 +1,7 @@
 # Battlecat Poll
 
-Simple poll mobile web app for sending data to a Splunk HTTP input. 
+Simple poll mobile web app for sending data to a Splunk HTTP input. It allows people to answer simple multiple-choice
+questions on their mobile phone and have the results be displayed in a Splunk dashboard in real-time. 
 
 ## Build/Deploy
 
