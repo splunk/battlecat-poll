@@ -40,7 +40,8 @@ module.exports = {
             SPLUNK_HOST: JSON.stringify(process.env.PP_SPLUNK_HOST || 'localhost'),
             SPLUNK_PORT: JSON.stringify(parseInt(process.env.PP_SPLUNK_PORT || 8088, 10)),
             SPLUNK_SSL: JSON.stringify(process.env.PP_SPLUNK_SSL == 'true' || false),
-            SPLUNK_TOKEN: JSON.stringify(process.env.PP_SPLUNK_TOKEN || fail('Environment variable PP_SPLUNK_TOKEN is required.'))
+            SPLUNK_TOKEN: JSON.stringify(process.env.PP_SPLUNK_TOKEN || fail('Environment variable PP_SPLUNK_TOKEN is required.')),
+            DEBUG: JSON.stringify(process.env.PP_DEBUG == 'true' || false)
         })
     ],
     postcss: function() {
