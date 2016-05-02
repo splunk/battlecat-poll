@@ -70,6 +70,13 @@ To do this edit your `$SPLUNK_HOME/etc/system/local/server.conf` and add the fol
 crossOriginSharingPolicy = *
 ```
 
+After Splunk 6.4 this setting moved to `$SPLUNK_HOME/etc/system/local/inputs.conf`:
+
+```
+[http]
+crossOriginSharingPolicy = *
+```
+
 If you wish to restrict cors calls to a specific domain replace the asterix with the domain name your are hosting 
 Parallel Piper on.
 
